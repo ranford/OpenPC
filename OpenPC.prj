@@ -1,0 +1,219 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="/mathworks/devel/sandbox/acampbel/sb/OpenPC/OpenPC.prj" location="/mathworks/devel/sandbox/acampbel/sb/OpenPC" name="OpenPC" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>OpenPC</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}/OpenPC.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>4f8d2c36-2efe-4983-aacc-ba6a70f416b4</param.guid>
+    <param.exclude.filters>% List files contained in your toolbox folder that you would like to exclude
+% from packaging.  Excludes should be listed relative to the toolbox folder.
+% Some examples of how to specify excludes are provided below:
+%
+% A single file in the toolbox folder:
+% .svn
+%
+% A single file in a subfolder of the toolbox folder:
+% example/.svn
+%
+% All files in a subfolder of the toolbox folder:
+% example/*
+%
+% All files of a certain name in all subfolders of the toolbox folder:
+% **/.svn
+%
+% All files matching a pattern in all subfolders of the toolbox folder:
+% **/*.bak
+%
+UnitTests</param.exclude.filters>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes>
+      <item>/.git</item>
+      <item>/.git/branches</item>
+      <item>/.git/hooks</item>
+      <item>/.git/info</item>
+      <item>/.git/lfs</item>
+      <item>/.git/lfs/objects</item>
+      <item>/.git/lfs/objects/logs</item>
+      <item>/.git/lfs/tmp</item>
+      <item>/.git/lfs/tmp/objects</item>
+      <item>/.git/logs</item>
+      <item>/.git/logs/refs</item>
+      <item>/.git/logs/refs/heads</item>
+      <item>/.git/logs/refs/remotes</item>
+      <item>/.git/logs/refs/remotes/origin</item>
+      <item>/.git/objects</item>
+      <item>/.git/objects/01</item>
+      <item>/.git/objects/03</item>
+      <item>/.git/objects/04</item>
+      <item>/.git/objects/06</item>
+      <item>/.git/objects/0b</item>
+      <item>/.git/objects/0c</item>
+      <item>/.git/objects/0e</item>
+      <item>/.git/objects/13</item>
+      <item>/.git/objects/15</item>
+      <item>/.git/objects/17</item>
+      <item>/.git/objects/18</item>
+      <item>/.git/objects/26</item>
+      <item>/.git/objects/27</item>
+      <item>/.git/objects/2b</item>
+      <item>/.git/objects/2f</item>
+      <item>/.git/objects/32</item>
+      <item>/.git/objects/36</item>
+      <item>/.git/objects/3a</item>
+      <item>/.git/objects/3d</item>
+      <item>/.git/objects/40</item>
+      <item>/.git/objects/42</item>
+      <item>/.git/objects/49</item>
+      <item>/.git/objects/55</item>
+      <item>/.git/objects/59</item>
+      <item>/.git/objects/5a</item>
+      <item>/.git/objects/5f</item>
+      <item>/.git/objects/60</item>
+      <item>/.git/objects/65</item>
+      <item>/.git/objects/67</item>
+      <item>/.git/objects/6a</item>
+      <item>/.git/objects/6b</item>
+      <item>/.git/objects/70</item>
+      <item>/.git/objects/77</item>
+      <item>/.git/objects/78</item>
+      <item>/.git/objects/83</item>
+      <item>/.git/objects/84</item>
+      <item>/.git/objects/89</item>
+      <item>/.git/objects/8b</item>
+      <item>/.git/objects/8e</item>
+      <item>/.git/objects/92</item>
+      <item>/.git/objects/93</item>
+      <item>/.git/objects/9a</item>
+      <item>/.git/objects/9e</item>
+      <item>/.git/objects/9f</item>
+      <item>/.git/objects/a0</item>
+      <item>/.git/objects/a1</item>
+      <item>/.git/objects/a2</item>
+      <item>/.git/objects/a4</item>
+      <item>/.git/objects/a9</item>
+      <item>/.git/objects/ac</item>
+      <item>/.git/objects/b0</item>
+      <item>/.git/objects/b1</item>
+      <item>/.git/objects/b2</item>
+      <item>/.git/objects/b3</item>
+      <item>/.git/objects/b4</item>
+      <item>/.git/objects/b6</item>
+      <item>/.git/objects/b8</item>
+      <item>/.git/objects/ba</item>
+      <item>/.git/objects/bb</item>
+      <item>/.git/objects/be</item>
+      <item>/.git/objects/bf</item>
+      <item>/.git/objects/c3</item>
+      <item>/.git/objects/c6</item>
+      <item>/.git/objects/c8</item>
+      <item>/.git/objects/ca</item>
+      <item>/.git/objects/cc</item>
+      <item>/.git/objects/cd</item>
+      <item>/.git/objects/ce</item>
+      <item>/.git/objects/cf</item>
+      <item>/.git/objects/d4</item>
+      <item>/.git/objects/d5</item>
+      <item>/.git/objects/dc</item>
+      <item>/.git/objects/e0</item>
+      <item>/.git/objects/e2</item>
+      <item>/.git/objects/e6</item>
+      <item>/.git/objects/ea</item>
+      <item>/.git/objects/ee</item>
+      <item>/.git/objects/f2</item>
+      <item>/.git/objects/f4</item>
+      <item>/.git/objects/f5</item>
+      <item>/.git/objects/f7</item>
+      <item>/.git/objects/f8</item>
+      <item>/.git/objects/ff</item>
+      <item>/.git/objects/info</item>
+      <item>/.git/objects/pack</item>
+      <item>/.git/refs</item>
+      <item>/.git/refs/heads</item>
+      <item>/.git/refs/remotes</item>
+      <item>/.git/refs/remotes/origin</item>
+      <item>/.git/refs/tags</item>
+    </param.matlabpath.excludes>
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>/mathworks/devel/sandbox/acampbel/sb/OpenPC</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}/.git</file>
+      <file>${PROJECT_ROOT}/Blackbox</file>
+      <file>${PROJECT_ROOT}/Development</file>
+      <file>${PROJECT_ROOT}/Evaluation</file>
+      <file>${PROJECT_ROOT}/Examples</file>
+      <file>${PROJECT_ROOT}/External</file>
+      <file>${PROJECT_ROOT}/LICENSE.txt</file>
+      <file>${PROJECT_ROOT}/Misc</file>
+      <file>${PROJECT_ROOT}/Multi</file>
+      <file>${PROJECT_ROOT}/OpenPC.m</file>
+      <file>${PROJECT_ROOT}/Polynomials</file>
+      <file>${PROJECT_ROOT}/Quadratures</file>
+      <file>${PROJECT_ROOT}/README.txt</file>
+      <file>${PROJECT_ROOT}/Settings</file>
+      <file>${PROJECT_ROOT}/initOpenPC.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/mathworks/devel/sandbox/acampbel/sb/OpenPC" name="OpenPC.mltbx" optional="false">/mathworks/devel/sandbox/acampbel/sb/OpenPC/OpenPC.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2017b.app</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.11.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
