@@ -33,7 +33,8 @@
 % All files matching a pattern in all subfolders of the toolbox folder:
 % **/*.bak
 %
-UnitTests</param.exclude.filters>
+UnitTests
+.git</param.exclude.filters>
     <param.examples />
     <param.demosxml />
     <param.apps />
@@ -173,7 +174,6 @@ UnitTests</param.exclude.filters>
       <file>/mathworks/devel/sandbox/acampbel/sb/OpenPC</file>
     </fileset.rootdir>
     <fileset.rootfiles>
-      <file>${PROJECT_ROOT}/.git</file>
       <file>${PROJECT_ROOT}/Blackbox</file>
       <file>${PROJECT_ROOT}/Development</file>
       <file>${PROJECT_ROOT}/Evaluation</file>
@@ -188,6 +188,7 @@ UnitTests</param.exclude.filters>
       <file>${PROJECT_ROOT}/README.txt</file>
       <file>${PROJECT_ROOT}/Settings</file>
       <file>${PROJECT_ROOT}/initOpenPC.m</file>
+      <file>${PROJECT_ROOT}/resources</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
