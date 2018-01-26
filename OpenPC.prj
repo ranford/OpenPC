@@ -34,7 +34,8 @@
 % **/*.bak
 %
 UnitTests
-.git</param.exclude.filters>
+.git
+resources</param.exclude.filters>
     <param.examples />
     <param.demosxml />
     <param.apps />
@@ -188,7 +189,6 @@ UnitTests
       <file>${PROJECT_ROOT}/README.txt</file>
       <file>${PROJECT_ROOT}/Settings</file>
       <file>${PROJECT_ROOT}/initOpenPC.m</file>
-      <file>${PROJECT_ROOT}/resources</file>
     </fileset.rootfiles>
     <fileset.depfun.included />
     <fileset.depfun.excluded />
